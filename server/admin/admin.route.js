@@ -14,7 +14,7 @@ const AdminMiddleware = require("../middleware/admin.middleware");
 router.get("/profile", AdminMiddleware, AdminController.getProfile);
 
 //create admin
-// router.post("/", upload.single("image"), AdminController.store);
+ router.post("/", upload.single("image"), AdminController.store);
 
 //admin login
 router.post("/login", AdminController.login);
