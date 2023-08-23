@@ -17,7 +17,7 @@ module.exports = {
   //secret key for jwt
   JWT_SECRET: "|J]CYz9*&YMez8#",
 
-  SERVER_PATH: "https://lovmekserver.com/", // example :https://sdgserhgdhbrtsfgs.com/
+  SERVER_PATH: "https://www.lovmek.com/hasan", // example :https://sdgserhgdhbrtsfgs.com/
 
   // firebase server key for notification
   SERVER_KEY: "AAAA6ChUbqg:APA91bENnNbf7RuxBuXHOUz6Aub2z1OFvF6yMK-8Fya5RzG_8TvT8MyssGt8OILZGqWcRNQgHs6iJrQaa4g6Je_ktP7uGPzFD995HjEqgyPuq6bq0spTbu1d2hD45Apl5yeiMR1UGlmd",
