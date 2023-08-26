@@ -25,7 +25,7 @@ exports.store = async (req, res) => {
     admin.email = req.body.email;
     admin.password = req.body.password;
     admin.image = req.file ? req.file.path : null;
-
+    
     await admin.save((error, admin) => {
       if (error)
         return res.status(200).json({ status: false, message: error.message });
