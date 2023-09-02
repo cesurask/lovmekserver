@@ -379,7 +379,7 @@ io.on("connect", (socket) => {
       "liveUser Id ------------ ID------- in ad view",
       data.liveUserMongoId
     );
-    console.log("liveUser in ad view", liveUser?.view);
+  //  console.log("liveUser in ad view", liveUser?.view);
 
     if (liveUser) {
       const joinedUserExist = await LiveUser.findOne({
