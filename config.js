@@ -5,7 +5,7 @@ module.exports = {
   MONGODB_DB_NAME: "lovmek",
 
   //port
-  PORT: process.env.PORT || 3000 ,
+  PORT: process.env.PORT || 5200 ,
 
   //secret key for API
   SECRET_KEY: "|J]CYz9*&YMez8#",
